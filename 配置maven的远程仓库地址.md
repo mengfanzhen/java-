@@ -2,7 +2,7 @@
 1. maven默认的远程仓库是在%MAVEN_HOME%/lib/maven-model-builder-3.2.1.jar,打开 org/apache/maven/model/pom-4.0.0.xml 超级POM：
 ![](media/14942982383388/14942983488765.jpg)
 
-当中央仓库找不到所需要的构建时，我们可以配置pom.xml，添加其他的远程仓库地址
+  当中央仓库找不到所需要的构建时，我们可以配置pom.xml，添加其他的远程仓库地址
 
 ```
 <repositories>
